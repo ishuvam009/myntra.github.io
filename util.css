@@ -23,4 +23,21 @@
     color: black;
 }
 
+.space-around{
+    justify-content: space-between;
+}
 
+.mx-2{
+    margin-left: 12px ;
+    margin-right: 12px;
+}
+
+.center{
+    width: 100%;
+}
+
+.button{
+    
+    justify-content: center;
+    align-items: center;
+}

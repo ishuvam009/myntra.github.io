@@ -8,13 +8,14 @@
     <link rel="icon" type="x-icon" href="logo.jpg">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="util.css">
+    <script src="script.js" type="text/javascript"></script>
 
     <title>Online Shopping Site for Fashion & Lifestyle in India. India's Fashion Expert brings you a variety of footwear,
         Clothing, Accessories and lifestyle products for women & men. Best Online Fashion Store *COD *Easy returns and exchanges.</title>
 </head>
 <body>
-<header class="container">
-    <nav class="flex">
+<header class="container position">
+    <nav class="flex space-around">
         <div class="left flex item-center">
             <img src="logo.jpg" alt="myntra logo">
             <ul class="flex item-center justify-center uppercase bold font">
@@ -26,9 +27,24 @@
                 <li>Studio</li>
             </ul>
         </div>
-        <div class="right flex"></div>
+        <div class="right flex item-center">
+            <input class="" type="text">
+            <div class="profile font bold mx-2 i">Profile</div>
+            <div class="wishlist font bold mx-2">Wishlist</div>
+            <div class="bag font bold mx-2">Bag</div>
+        </div>
 
     </nav>
 </header>
+
+    <img id="bannerImage" class="center" src="banner1.webp" alt="banner image">
+    <button class="button" onclick="changeImage('banner1.webp')"></button>
+    <button onclick="changeImage('banner2.webp')"></button>
+    <button onclick="changeImage('banner3.webp')"></button>
+    <button onclick="changeImage('banner4.webp')"></button>
+    <button onclick="changeImage('banner5.webp')"></button>
+    <button onclick="changeImage('banner6.webp')"></button>
+    <button onclick="changeImage('banner7.webp')"></button>
+
 </body>
 </html>
